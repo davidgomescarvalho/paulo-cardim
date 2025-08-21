@@ -9,5 +9,16 @@ export default async function Home() {
   });
 
   console.log(products);
-  return <div></div>;
+  return (
+    <div>
+      <section>
+        <div>
+          <div>
+            <h2>Products of Paul Cardim</h2>
+            <p>Discover my products all handmade</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
