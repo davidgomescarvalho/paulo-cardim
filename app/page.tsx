@@ -22,15 +22,9 @@ export default async function Home() {
               <Link href="/shop">Shop</Link>
             </Button>
           </div>
-          <Image
-            alt="Product Image"
-            src={products.data[0].images[0]}
-            width={500}
-            height={500}
-          />
         </div>
       </section>
-      <section>
+      <section className="m-5">
         <Carousel products={products.data} />
       </section>
     </div>

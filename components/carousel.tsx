@@ -28,8 +28,9 @@ export const Carousel = ({ products }: Props) => {
           <Image
             alt={currentProduct.name}
             src={currentProduct.images[0]}
-            layout="fill"
-            objectFit="cover"
+            width={500}
+            height={500}
+            layout="responsive"
           />
         </div>
       )}
